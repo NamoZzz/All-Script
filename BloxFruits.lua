@@ -15,3 +15,9 @@ Section:NewButton("Strike Hub", "ButtonInfo", function()
 getgenv().Color = Color3.fromRGB(0, 128, 255)
 loadstring(game:HttpGet("https://raw.githubuusercontent.com/StromSKz12/StrikeHub1/main/Gameinluded"))()
 end)
+Section:NewButton("Xenon Hub ( Kaitan )", "ButtonInfo", function()
+getgenv().Color = Color3.fromRGB(0, 128, 255)
+_G.Keys = "BOSIZ-XYED6-9ATW0"
+_G.Scripts_Modes = "[UPDATE 17] Blox Fruits"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xenon-Trash/Loader/main/Loader.lua"))();
+end)
